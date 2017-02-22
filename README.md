@@ -14,12 +14,12 @@ Rope Climb Talon SRX ID - 20<br>
 Ball Pickup Talon SRX ID - 30<br>
 
 <b>--Solenoid--</b><br>
-Ball Door A-0<br>
-Ball Door B-1<br>
-Lower Gear Piston A-2<br>
-Lower Gear Piston B-3<br>
-Upper Gear Piston A-4<br>
-Upper Gear Piston B-5<br>
+Ball Door A - 0<br>
+Ball Door B - 1<br>
+Lower Gear Piston A - 2<br>
+Lower Gear Piston B - 3<br>
+Upper Gear Piston A - 4<br>
+Upper Gear Piston B - 5<br>
 	
 <b>--Joystick--</b><br>
 Ball Lift Up Button = Stick 1, Button 2<br>
