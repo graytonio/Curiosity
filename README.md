@@ -32,4 +32,4 @@ Gear Arms Out Button = Stick 1, Button 5<br>
 Gear Arms In Button = Stick 1, Button 6<br>
 	
 <b>--Constants--</b><br>
-DISTANCE_PER_PULSE = (Math.PI*6)/(240*4)
+DISTANCE_PER_PULSE = (Math.PI x 6)/(240 x 4)
