@@ -17,7 +17,6 @@ public class AutoTurn extends Command {
     public AutoTurn(double deltaAngle) {
         requires(Robot.drive);
         this.angle=deltaAngle;
-        setTimeout(3);
     }
 
     // Called just before this Command runs the first time

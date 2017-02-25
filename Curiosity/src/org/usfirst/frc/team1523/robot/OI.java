@@ -2,7 +2,7 @@ package org.usfirst.frc.team1523.robot;
 
 import org.usfirst.frc.team1523.robot.commands.ClimbRope;
 import org.usfirst.frc.team1523.robot.commands.PickupBall;
-import org.usfirst.frc.team1523.robot.commands.ResetEncoders;
+import org.usfirst.frc.team1523.robot.commands.ResetSensors;
 import org.usfirst.frc.team1523.robot.commands.SetBallRelease;
 import org.usfirst.frc.team1523.robot.commands.SetLowerGear;
 import org.usfirst.frc.team1523.robot.commands.SetUpperGear;
@@ -44,9 +44,6 @@ public class OI {
 		gearOut = new JoystickButton(stick1, RobotMap.GEAR_OUT_BUTTON);
 		gearIn = new JoystickButton(stick1, RobotMap.GEAR_IN_BUTTON);
 		
-		downRope = new JoystickButton(stick0, 4);
-		resetEncoder = new JoystickButton(stick0, 5);
-		
 		holdRope.whileHeld(new ClimbRope());
 		holdBallPickup.whileHeld(new PickupBall());
 		ballOutputOut.whenPressed(new SetBallRelease(false));
@@ -56,8 +53,12 @@ public class OI {
 		gearOut.whenPressed(new SetUpperGear(true));
 		gearIn.whenPressed(new SetUpperGear(false));
 		
+		//Debug Buttons
+		downRope = new JoystickButton(stick0, 4);
+		resetEncoder = new JoystickButton(stick0, 5);
+		
 		downRope.whileHeld(new TestClimb());
-		resetEncoder.whenPressed(new ResetEncoders());
+		resetEncoder.whenPressed(new ResetSensors());
 	}
 	
 	public Joystick getStick0(){

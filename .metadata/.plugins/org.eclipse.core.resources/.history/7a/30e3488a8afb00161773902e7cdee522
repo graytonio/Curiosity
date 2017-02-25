@@ -1,0 +1,45 @@
+package org.usfirst.frc.team1523.robot.commands;
+
+import edu.wpi.first.wpilibj.command.CommandGroup;
+import edu.wpi.first.wpilibj.command.WaitCommand;
+
+/**
+ *
+ */
+public class AutoGear extends CommandGroup {
+
+	public AutoGear(int pos) {
+		
+		//Left No Hopper
+		if(pos==0){
+			addSequential(new AutoDrive(0.5, 80));
+			addSequential(new AutoTurn(-60));
+			addSequential(new AutoDrive(0.5, 25));
+		}else if(pos==1){
+			addSequential(new AutoDrive(0.5, 50));
+		}else if(pos==2){
+			addSequential(new AutoDrive(0.5, 80));
+			addSequential(new AutoTurn(60));
+			addSequential(new AutoDrive(0.5, 25));
+		}
+	}
+	
+	public void crossBaseLine(int pos){
+		if(pos==0){
+			addSequential(new AutoDrive(0.3, -30));
+			addSequential(new AutoTurn(30));
+			addSequential(new AutoDrive(0.3, 100));
+		}else if(pos==3){
+			addSequential(new AutoDrive(0.3, -30));
+			addSequential(new AutoTurn(-30));
+			addSequential(new AutoDrive(0.3, 100));
+		}
+	}
+	
+	public void placeGear(){
+		addSequential(new Vision());
+		addSequential(new SetUpperGear(false));
+		addSequential(new WaitCommand(0.5));
+		addSequential(new SetUpperGear(true));
+	}
+}

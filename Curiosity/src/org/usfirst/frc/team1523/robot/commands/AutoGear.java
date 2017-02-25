@@ -8,38 +8,65 @@ import edu.wpi.first.wpilibj.command.WaitCommand;
  */
 public class AutoGear extends CommandGroup {
 
-	//1 = left, 2 = center, 3 = right
+	/*
+	 * 0 = Left no hopper
+	 * 1 = Center
+	 * 2 = Right no hopper
+	 * 3 = Left hopper
+	 * 4 = Right hopper
+	 */
+	
 	public AutoGear(int pos) {
-		setTimeout(15);
-		
-		//Drive to Gear
+		driveToGear(pos);
+		if(pos==0 || pos==1 || pos==2) crossBaseLine(pos);
+		else getFromHopper(pos);
+	}
+	
+	
+	public void driveToGear(int pos){
 		if(pos==0){
-			addSequential(new AutoDrive(0.5, 48));
+			addSequential(new AutoDrive(0.5, 80));
 			addSequential(new AutoTurn(-60));
-			addSequential(new AutoDrive(0.5, 6));
+			addSequential(new AutoDrive(0.5, 25));
 		}else if(pos==1){
-			addSequential(new AutoDrive(0.5, 48));
+			addSequential(new AutoDrive(0.5, 50));
 		}else if(pos==2){
-			addSequential(new AutoDrive(0.5, 48));
+			addSequential(new AutoDrive(0.5, 80));
 			addSequential(new AutoTurn(60));
-			addSequential(new AutoDrive(0.5, 6));
+			addSequential(new AutoDrive(0.5, 25));
 		}
-
-		//Place Gear
-		addSequential(new Vision());
-		addSequential(new SetUpperGear(false));
-		addSequential(new WaitCommand(0.5));
-		addSequential(new SetUpperGear(true));
-		
-		//Go Across Baseline
+		placeGear();
+	}
+	
+	public void getFromHopper(int pos){
+		if(pos==3){
+			
+		}else if(pos==4){
+			
+		}
+		crossBaseLine(pos);
+	}
+	
+	public void crossBaseLine(int pos){
 		if(pos==0){
 			addSequential(new AutoDrive(0.3, -30));
 			addSequential(new AutoTurn(30));
 			addSequential(new AutoDrive(0.3, 100));
-		}else if(pos==3){
+		}else if(pos==2){
 			addSequential(new AutoDrive(0.3, -30));
 			addSequential(new AutoTurn(-30));
 			addSequential(new AutoDrive(0.3, 100));
+		}else if(pos==3){
+			
+		}else if(pos==4){
+			
 		}
+	}
+	
+	public void placeGear(){
+		addSequential(new Vision());
+		addSequential(new SetUpperGear(false));
+		addSequential(new WaitCommand(0.5));
+		addSequential(new SetUpperGear(true));
 	}
 }

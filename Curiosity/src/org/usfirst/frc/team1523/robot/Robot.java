@@ -2,6 +2,8 @@
 package org.usfirst.frc.team1523.robot;
 
 import org.usfirst.frc.team1523.robot.commands.AutoGear;
+import org.usfirst.frc.team1523.robot.commands.DisableRobot;
+import org.usfirst.frc.team1523.robot.commands.SetUpperGear;
 import org.usfirst.frc.team1523.robot.subsystems.Ball;
 import org.usfirst.frc.team1523.robot.subsystems.Drive;
 import org.usfirst.frc.team1523.robot.subsystems.Gear;
@@ -27,6 +29,7 @@ public class Robot extends IterativeRobot {
 
 	public static Gyro gyro;
 	public static Compressor comp;
+	public static boolean disabled=false;
 	
 	Command autonomousCommand;
 	SendableChooser<Command> chooser = new SendableChooser<>();
@@ -55,6 +58,9 @@ public class Robot extends IterativeRobot {
 		chooser.addObject("Vison Test", new AutoGear(3));
 		chooser.addDefault("Nothing", null);
 		SmartDashboard.putData("Auto Choice", chooser);
+		
+		SmartDashboard.putData("Disable Robot", new DisableRobot());
+		SmartDashboard.putData("Throw Gear", new SetUpperGear(false));
 	}
 
 	@Override
@@ -90,6 +96,13 @@ public class Robot extends IterativeRobot {
 	@Override
 	public void teleopPeriodic() {
 		Scheduler.getInstance().run();
+		if(oi.getStick0().getRawButton(6)){
+			Scheduler.getInstance().enable();
+			disabled = false;
+		}
+		if(disabled){
+			Robot.drive.stop();
+		}
 		log();
 	}
 

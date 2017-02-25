@@ -19,7 +19,6 @@ public class AutoDrive extends Command {
     	requires(Robot.drive);
         this.distance=distance;
         this.speed=speed;
-        setTimeout(3);
     }
 
     // Called just before this Command runs the first time
