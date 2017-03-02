@@ -6,61 +6,19 @@
     <language>en</language>
      <atom:link href="http://marketplace.eclipse.org/rss.xml" rel="self" type="application/rss+xml" />
       <item>
-    <title>Notepad4e</title>
-    <link>http://marketplace.eclipse.org/content/notepad4e</link>
-    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/note.png&quot; width=&quot;80&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Sat, 2016-10-08 08:14&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2017-02-22 14:13&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/pybigourdan/listings&quot; title=&quot;Pierre-Yves B.&quot;&gt;Pierre-Yves B.&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;Create highly customisable notes in Eclipse, and never lose track of your thoughts, ideas or code snippets!&lt;/p&gt;
-&lt;p&gt;● Create as many notes as you like in a separate Eclipse view.&lt;br /&gt;
-● Modify the style of the text (font, colour, bold, italic, underlined, etc.).&lt;br /&gt;
-● Customise the appearance of the plugin.&lt;br /&gt;
-● Automatically save the contents of your notes between workspace launches.&lt;br /&gt;
-● Use editable shortcuts to boost your productivity.&lt;br /&gt;
-● Export notes as text files.&lt;br /&gt;
-● Lightweight and user-friendly.&lt;br /&gt;
-● No user tracking, no ads.&lt;br /&gt;
-● Source code available.&lt;br /&gt;
-● More to discover and to come in future updates!&lt;/p&gt;
-&lt;p&gt;For additional information, head &lt;a href=&quot;https://github.com/PyvesB/Notepad4e&quot;&gt;the Github repository&lt;/a&gt;. Feel free to give any feedback you wish or star the project either here or on Github!&lt;/p&gt;
+    <title>IBM Eclipse Tools for Bluemix</title>
+    <link>http://marketplace.eclipse.org/content/ibm-eclipse-tools-bluemix</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/bluemix-for-marketplace_0.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Mon, 2014-06-30 04:34&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2017-03-01 09:28&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22IBM%22&quot;&gt;IBM&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/canderson/listings&quot; title=&quot;Carl Anderson&quot;&gt;Carl Anderson&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;Enables rapid deployment and integration of applications with IBM &lt;a href=&quot;https://console.ng.bluemix.net/registration/?cm_mmc=IBMEclipseTools-_-EclipseMarketplace-_-Mars1-_-Registration&quot;&gt;Bluemix&lt;/a&gt; or the Cloud Foundry Clouds, including support for JavaScript and EAR publishing.  &lt;strong&gt;A Java 7 or newer Execution Environment is required.&lt;/strong&gt;  For more information about installing this version of the tools, see &lt;a href=&quot;https://developer.ibm.com/wasdev/downloads/#asset/tools-IBM_Eclipse_Tools_for_Bluemix&quot;&gt;https://developer.ibm.com/wasdev/downloads/#asset/tools-IBM_Eclipse_Tool...&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
-     <pubDate>Sat, 08 Oct 2016 12:14:08 +0000</pubDate>
- <dc:creator>pybigourdan</dc:creator>
- <guid isPermaLink="false">3108021 at http://marketplace.eclipse.org</guid>
- <comments>http://marketplace.eclipse.org/content/notepad4e#comments</comments>
-  </item>
-  <item>
-    <title>eMoflon</title>
-    <link>http://marketplace.eclipse.org/content/emoflon</link>
-    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/eMoflonLogoNoText_semitransparent.png&quot; width=&quot;80&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2016-12-30 08:43&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2017-02-22 08:03&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/rkluge/listings&quot; title=&quot;Roland Kluge&quot;&gt;Roland Kluge&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;eMoflon is a tool for building tools. It allows you to model software systems using a visual or a textual syntax, afterwards generating EMF-compliant Java code from your model.&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
-     <pubDate>Fri, 30 Dec 2016 13:43:16 +0000</pubDate>
- <dc:creator>rkluge</dc:creator>
- <guid isPermaLink="false">3234744 at http://marketplace.eclipse.org</guid>
- <comments>http://marketplace.eclipse.org/content/emoflon#comments</comments>
-  </item>
-  <item>
-    <title>Spartan Refactoring</title>
-    <link>http://marketplace.eclipse.org/content/spartan-refactoring-0</link>
-    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/icon_narrow.png&quot; width=&quot;74&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Sun, 2015-11-22 05:11&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2017-02-22 07:26&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Technion%20-%20Israel%20Institute%20of%20Technology%22&quot;&gt;Technion - Israel Institute of Technology&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/dmittelman/listings&quot; title=&quot;Daniel Mittelman&quot;&gt;Daniel Mittelman&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;Automatically find and correct fragments of code to make your Java&#039;s source code more efficient, shorter and more readable&lt;/p&gt;
-&lt;p&gt;More info on &lt;a href=&quot;https://www.spartan.org.il&quot;&gt;https://www.spartan.org.il&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
-     <pubDate>Sun, 22 Nov 2015 10:11:54 +0000</pubDate>
- <dc:creator>dmittelman</dc:creator>
- <guid isPermaLink="false">2617709 at http://marketplace.eclipse.org</guid>
- <comments>http://marketplace.eclipse.org/content/spartan-refactoring-0#comments</comments>
-  </item>
-  <item>
-    <title>eReviewBoard</title>
-    <link>http://marketplace.eclipse.org/content/ereviewboard</link>
-    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/reviewboard_logo.png&quot; width=&quot;105&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2011-02-11 17:35&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2017-02-22 05:50&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Robert%20Munteanu%22&quot;&gt;Robert Munteanu&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/rmunteanu/listings&quot; title=&quot;Robert Munteanu&quot;&gt;Robert Munteanu&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;The ReviewBoard connector for Mylyn allows you to track your reviews from within Eclipse. It provides task list integration, a rich task editor and access to patches and screenshots.&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
-     <pubDate>Fri, 11 Feb 2011 22:35:35 +0000</pubDate>
- <dc:creator>rmunteanu</dc:creator>
- <guid isPermaLink="false">32537 at http://marketplace.eclipse.org</guid>
- <comments>http://marketplace.eclipse.org/content/ereviewboard#comments</comments>
+     <pubDate>Mon, 30 Jun 2014 08:34:39 +0000</pubDate>
+ <dc:creator>canderson</dc:creator>
+ <guid isPermaLink="false">1774120 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/ibm-eclipse-tools-bluemix#comments</comments>
   </item>
   <item>
     <title>DBeaver</title>
     <link>http://marketplace.eclipse.org/content/dbeaver</link>
-    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/dbeaver_head_new.png&quot; width=&quot;73&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Sun, 2012-11-04 11:30&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2017-02-22 05:41&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Jkiss%22&quot;&gt;Jkiss&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/sriderdp1/listings&quot; title=&quot;Serge Rider&quot;&gt;Serge Rider&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;DBeaver is free universal SQL client/database tool for developers and database administrators.&lt;/p&gt;
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/dbeaver_head_new.png&quot; width=&quot;73&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Sun, 2012-11-04 11:30&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2017-03-01 07:17&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Jkiss%22&quot;&gt;Jkiss&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/sriderdp1/listings&quot; title=&quot;Serge Rider&quot;&gt;Serge Rider&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;DBeaver is free universal SQL client/database tool for developers and database administrators.&lt;/p&gt;
 &lt;p&gt;It can work with any database server which has JDBC driver. It supports pluggable extensions.&lt;br /&gt;
 Version 3.x has special extensions for:&lt;br /&gt;
 MySQL, Oracle, DB2, PostgreSQL, SQL Server, Sybase, Exasol, Informix, Teradata, Vertica, Netezza, Phoenix, Firebird, Derby, H2, WMI, Cassandra, MongoDB, Redis.&lt;/p&gt;
@@ -74,9 +32,19 @@ Source code: &lt;a href=&quot;https://github.com/serge-rider/dbeaver&quot;&gt;ht
  <comments>http://marketplace.eclipse.org/content/dbeaver#comments</comments>
   </item>
   <item>
+    <title>Kotlin Plugin for Eclipse</title>
+    <link>http://marketplace.eclipse.org/content/kotlin-plugin-eclipse</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/em_size.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2015-03-25 19:04&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2017-03-01 07:08&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22JetBrains%22&quot;&gt;JetBrains&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/jjetbrains/listings&quot; title=&quot;JB JetBrains&quot;&gt;JB JetBrains&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;The Kotlin Plugin for Eclipse helps you write, run, debug and test programs in &lt;a href=&quot;http://kotlinlang.org/&quot;&gt;Kotlin language&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Wed, 25 Mar 2015 23:04:10 +0000</pubDate>
+ <dc:creator>jjetbrains</dc:creator>
+ <guid isPermaLink="false">2257536 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/kotlin-plugin-eclipse#comments</comments>
+  </item>
+  <item>
     <title>Yatta Launcher for Eclipse</title>
     <link>http://marketplace.eclipse.org/content/yatta-launcher-eclipse</link>
-    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/launcherIcon256_0.png&quot; width=&quot;80&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2015-09-24 05:17&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2017-02-22 04:19&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Yatta%20Solutions%20GmbH%22&quot;&gt;Yatta Solutions GmbH&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/febelshuser/listings&quot; title=&quot;Frederic Ebelshaeuser&quot;&gt;Frederic Ebelshaeuser&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;h2&gt;Share Your Eclipse Setup With Your Team&lt;/h2&gt;
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/launcherIcon256_0.png&quot; width=&quot;80&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2015-09-24 05:17&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2017-03-01 04:54&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Yatta%20Solutions%20GmbH%22&quot;&gt;Yatta Solutions GmbH&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/febelshuser/listings&quot; title=&quot;Frederic Ebelshaeuser&quot;&gt;Frederic Ebelshaeuser&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;h2&gt;Share Your Eclipse Setup With Your Team&lt;/h2&gt;
 &lt;p&gt;The Launcher is a lightweight desktop app and the easiest way to organize your Eclipse setups – for yourself, your team, or within the community. Save your project setup as a profile, share it with your team and just start building great software. Try it now - it&#039;s free!&lt;/p&gt;
 &lt;p align=&quot;center&quot;&gt;
 		&lt;a href=&quot;https://www.yatta.de/profiles?utm_source=eclipse&amp;amp;utm_medium=marketplace%20entry&amp;amp;utm_campaign=Eclipse%20Promoted%20Solution&amp;amp;utm_term=promoted%20solution?download&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://marketplace.yatta.de/static/content/eclipse-marketplace/download.png&quot; border=&quot;0&quot; alt=&quot;download now&quot; /&gt;&lt;/a&gt;
@@ -164,302 +132,90 @@ Source code: &lt;a href=&quot;https://github.com/serge-rider/dbeaver&quot;&gt;ht
  <comments>http://marketplace.eclipse.org/content/yatta-launcher-eclipse#comments</comments>
   </item>
   <item>
-    <title>Red Hat JBoss Developer Studio Integration Stack</title>
-    <link>http://marketplace.eclipse.org/content/red-hat-jboss-developer-studio-integration-stack</link>
-    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/128_jbds_icon_0.png&quot; width=&quot;80&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2016-05-06 13:32&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2017-02-21 14:01&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Red%20Hat%2C%20Inc.%22&quot;&gt;Red Hat, Inc.&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/jtools/listings&quot; title=&quot;JBoss Tools&quot;&gt;JBoss Tools&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;Red Hat JBoss Developer Studio Integration Stack includes &lt;a href=&quot;https://marketplace.eclipse.org/content/red-hat-jboss-developer-studio&quot;&gt;Red Hat JBoss Developer Studio&lt;/a&gt; plus:&lt;/p&gt;
-&lt;p&gt;* JBoss Fuse Tooling - Tooling for Red Hat JBoss Fuse, specifically for integrating and developing software components that work with Apache ServiceMix, ActiveMQ and Camel.   It features Fuse Data Transformation tooling, SwitchYard and access to the Fuse SAP Tool Suite.&lt;br /&gt;
-* BRMS Tooling - Tools related to business processes and rules development - includes support for BPEL, BPMN2, jBPM6 and Drools.&lt;br /&gt;
- * JBoss Data Virtualization - Tools related to data virtualization such as persistence and transformation - includes support for Teiid Designer.&lt;br /&gt;
-* JBoss Integration and SOA Development - Tools related to the development of Integration and SOA applications - includes support for BPEL, BPMN2, Drools, jBPM6, KIE, Fuse Tooling and Switchyard.&lt;/p&gt;
-&lt;p&gt;For a quick overview, see &lt;a href=&quot;https://access.redhat.com/documentation/en-US/Red_Hat_JBoss_Developer_Studio_Integration_Stack/index.html&quot;&gt;Integration Stack documentation&lt;/a&gt; .  &lt;/p&gt;
-&lt;p&gt;See also: &lt;a href=&quot;http://www.redhat.com/products/jbossenterprisemiddleware/developer-studio/&quot;&gt;http://www.redhat.com/products/jbossenterprisemiddleware/developer-studio/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;The latest release was built with Eclipse 4.6, but should also work with other Neon or Eclipse 4.6.x versions.&lt;/p&gt;
-&lt;p&gt;NOTE: If you encounter problems, please open an &lt;a href=&quot;https://jira.jboss.org/jira/browse/JBTIS&quot;&gt;issue&lt;/a&gt;&lt;/p&gt;
+    <title>JUnit-Tools</title>
+    <link>http://marketplace.eclipse.org/content/junit-tools</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/logo_lg_110x110_0.png&quot; width=&quot;80&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2016-01-05 14:20&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2017-03-01 02:36&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22JUnit-Tools-Team%22&quot;&gt;JUnit-Tools-Team&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/gstreng/listings&quot; title=&quot;Gerhard Streng&quot;&gt;Gerhard Streng&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;A set of tools to optimize the creation and maintainability of JUnit tests.&lt;br /&gt;
+Write less, test more!&lt;/p&gt;
+&lt;p&gt;The main feature of JUnit-Tools is to generate JUnit test-elements (packages, classes, methods, test-cases, mocks) depending on an existing java-class and logic. It supports the Test-After Development: Create JUnit-tests after writing or modifying application code. Other input-channels (e.g. UML-models) for the generation of test-elements to support Test-Driven Development are possible but not available yet.&lt;/p&gt;
+&lt;p&gt;JUnit-tests usually have a similar structure: Create the preconditions, run the class under test, validate the postconditions. The created test-elements for the classes and methods should have the same name-conventions to find easily the corresponding tests. These are good reasons for a generator.&lt;/p&gt;
+&lt;p&gt;The main difference to other tools is, that JUnit-Tools is complete open source and that it is easy to adapt the structure and generated output to the own needs and requirements. There are many extension points and interfaces to change and contribute the base-implementations. An integration for the IDE eclipse is available and it&#039;s easy to install, set up and run the tools.&lt;/p&gt;
+&lt;p&gt; If you have any questions or issues, please feel free and send us an email: &lt;a href=&quot;mailto:support@junit-tools.org&quot;&gt;support@junit-tools.org&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;We are also happy about feedback and any ideas to improve the JUnit-Tools.&lt;/p&gt;
 &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
-     <pubDate>Fri, 06 May 2016 17:32:51 +0000</pubDate>
- <dc:creator>jtools</dc:creator>
- <guid isPermaLink="false">2872800 at http://marketplace.eclipse.org</guid>
- <comments>http://marketplace.eclipse.org/content/red-hat-jboss-developer-studio-integration-stack#comments</comments>
+     <pubDate>Tue, 05 Jan 2016 19:20:51 +0000</pubDate>
+ <dc:creator>gstreng</dc:creator>
+ <guid isPermaLink="false">2670402 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/junit-tools#comments</comments>
   </item>
   <item>
-    <title>Nuxeo IDE</title>
-    <link>http://marketplace.eclipse.org/content/nuxeo-ide</link>
-    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/nuxeo_IDE_logo.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Mon, 2011-10-03 13:33&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2017-02-21 05:25&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Nuxeo%22&quot;&gt;Nuxeo&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/slacoin/listings&quot; title=&quot;stephane lacoin&quot;&gt;stephane lacoin&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;
-
-&lt;meta name=&quot;generator&quot; content=&quot;HTML Tidy for Linux/x86 (vers 25 March 2009), see www.w3.org&quot; /&gt;&lt;title&gt;Nuxeo IDE Eclipse Marketplace description&lt;/title&gt;&lt;p&gt;Nuxeo IDE won&#039;t be released anymore and should not be used for releases of Nuxeo Platform greater than LTS 2015 as no support would be provided. You should instead use &lt;a href=&quot;https://doc.nuxeo.com/nxdoc/getting-started-with-nuxeo-generator/&quot;&gt;Nuxeo CLI&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Nuxeo IDE was the Integrated Development
-Environment (IDE) for developers using the Nuxeo Platform (until LTS 2016) a full-featured Open
-Source Content Management Platform to help developers build &lt;a href=&quot;http://www.nuxeo.com/en/products/document-management&quot;&gt;document
-management&lt;/a&gt; solutions, &lt;a href=&quot;http://www.nuxeo.com/en/products/case-management&quot;&gt;case
-management&lt;/a&gt; solutions, &lt;a href=&quot;http://www.nuxeo.com/en/products/digital-asset-management&quot;&gt;digital
-asset management&lt;/a&gt; solutions, and business
-content applications.&lt;/p&gt;
-
-&lt;p&gt;Nuxeo IDE enables developers to extend the
-Nuxeo Platform properly with new features written in Java, in a
-friendly environment that takes full advantage of the extensibility
-of the underlying Platform. Nuxeo IDE integrates smoothly with &lt;a href=&quot;http://www.nuxeo.com/en/products/studio&quot;&gt;Nuxeo
-Studio&lt;/a&gt;, the customization environment
-for the Nuxeo Platform.&lt;/p&gt;
-&lt;p&gt;The main features include
-&lt;/p&gt;&lt;dl&gt;&lt;dt&gt;Hot Reload&lt;/dt&gt;&lt;dd&gt; no restart
-required to see changes live in a Nuxeo instance&lt;/dd&gt;
-&lt;dt&gt;Templates and Wizards&lt;dt&gt;&lt;/dt&gt;&lt;/dt&gt;&lt;dd&gt; to guide the creation of new plugins, including: content
-operations, content services, content converters, web apps, and
-user actions&lt;/dd&gt;
-&lt;dt&gt;Deployment profiles&lt;dt&gt;&lt;/dt&gt;&lt;/dt&gt;&lt;dd&gt; to
-quickly deploy and test on different environments or
-versions&lt;/dd&gt;
-&lt;dt&gt;Code completion&lt;/dt&gt;&lt;dd&gt;
-for the content model, when bound to a Nuxeo Studio project;&lt;/dd&gt;
-&lt;dt&gt;Automated dependency management&lt;/dt&gt;&lt;dd&gt; for Maven-based projects, enabling
-generation and management of pom.xml files&lt;/dd&gt;
-&lt;dt&gt;Integration of Nuxeo Shell&lt;/dt&gt; to facilitate development and
-debugging
-
-&lt;p&gt;&lt;/p&gt;
-&lt;p&gt;Nuxeo IDE was developed by the
-&lt;a href=&quot;http://www.nuxeo.com&quot;&gt;Nuxeo&lt;/a&gt; team, is a
-free and open source tool provided under the Eclipse Public
-Licence. We invite community members to collaborate with us to
-improve the tool and take it to the next level.&lt;/p&gt;
-&lt;br /&gt;&lt;br /&gt;
-
-        Release Notes - Nuxeo IDE - Version 1.2.6
-                    
-&lt;h2&gt;        Bug
-&lt;/h2&gt;
-&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;https://jira.nuxeo.com/browse/NXIDE-363&quot;&gt;NXIDE-363&lt;/a&gt;] -         Fix nuxeo-automation-core detection when synchronizing pom
-&lt;/li&gt;
-&lt;li&gt;[&lt;a href=&quot;https://jira.nuxeo.com/browse/NXIDE-379&quot;&gt;NXIDE-379&lt;/a&gt;] -         Fix pom synchronization
-&lt;/li&gt;
-&lt;li&gt;[&lt;a href=&quot;https://jira.nuxeo.com/browse/NXIDE-384&quot;&gt;NXIDE-384&lt;/a&gt;] -         Fix hot reload when renaming components
-&lt;/li&gt;
-&lt;/ul&gt;
-
-        Release Notes - Nuxeo IDE - Version 1.2.5
-                
-&lt;h2&gt;        Bug
-&lt;/h2&gt;
-&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;https://jira.nuxeo.com/browse/NXIDE-342&quot;&gt;NXIDE-342&lt;/a&gt;] -         POM must configure Surefire to use JUnit
-&lt;/li&gt;
-&lt;li&gt;[&lt;a href=&quot;https://jira.nuxeo.com/browse/NXIDE-349&quot;&gt;NXIDE-349&lt;/a&gt;] -         Add &quot;always&quot; update policy for nuxeo-studio repo&#039;s snapshots
-&lt;/li&gt;
-&lt;li&gt;[&lt;a href=&quot;https://jira.nuxeo.com/browse/NXIDE-351&quot;&gt;NXIDE-351&lt;/a&gt;] -         Fix contributors cleanup and format
-&lt;/li&gt;
-&lt;li&gt;[&lt;a href=&quot;https://jira.nuxeo.com/browse/NXIDE-358&quot;&gt;NXIDE-358&lt;/a&gt;] -         Fix error (Resource already exists) when hot deploying
-&lt;/li&gt;
-&lt;li&gt;[&lt;a href=&quot;https://jira.nuxeo.com/browse/NXIDE-371&quot;&gt;NXIDE-371&lt;/a&gt;] -         Fix applicationStarted method in component template
-&lt;/li&gt;
-&lt;li&gt;[&lt;a href=&quot;https://jira.nuxeo.com/browse/NXIDE-372&quot;&gt;NXIDE-372&lt;/a&gt;] -         Fix document adapter template for 7.4+
-&lt;/li&gt;
-&lt;li&gt;[&lt;a href=&quot;https://jira.nuxeo.com/browse/NXIDE-373&quot;&gt;NXIDE-373&lt;/a&gt;] -         Fix event listener template for 7.4+
-&lt;/li&gt;
-&lt;li&gt;[&lt;a href=&quot;https://jira.nuxeo.com/browse/NXIDE-374&quot;&gt;NXIDE-374&lt;/a&gt;] -         Fix controller and action bean templates for 7.4+
-&lt;/li&gt;
-&lt;/ul&gt;&lt;h2&gt;        Improvement
-&lt;/h2&gt;
-&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;https://jira.nuxeo.com/browse/NXIDE-340&quot;&gt;NXIDE-340&lt;/a&gt;] -         Update coding rules and improve their lookup
-&lt;/li&gt;
-&lt;li&gt;[&lt;a href=&quot;https://jira.nuxeo.com/browse/NXIDE-346&quot;&gt;NXIDE-346&lt;/a&gt;] -         Rename &quot;Nuxeo Connect&quot; into &quot;Nuxeo Online Services&quot;
-&lt;/li&gt;
-&lt;/ul&gt;&lt;h2&gt;        Task
-&lt;/h2&gt;
-&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;https://jira.nuxeo.com/browse/NXIDE-348&quot;&gt;NXIDE-348&lt;/a&gt;] -         Start Automating functional tests
-&lt;/li&gt;
-&lt;li&gt;[&lt;a href=&quot;https://jira.nuxeo.com/browse/NXIDE-362&quot;&gt;NXIDE-362&lt;/a&gt;] -         Update Java required version in a plugin project / webengine project to java 8
-&lt;/li&gt;
-&lt;li&gt;[&lt;a href=&quot;https://jira.nuxeo.com/browse/NXIDE-375&quot;&gt;NXIDE-375&lt;/a&gt;] -         Add studio unit test comments and save pending changes
-&lt;/li&gt;
-&lt;/ul&gt;Release Notes - Nuxeo IDE - Version 1.2.4
-                                
-&lt;h2&gt;        Improvement
-&lt;/h2&gt;
-&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;https://jira.nuxeo.com/browse/NXIDE-336&quot;&gt;NXIDE-336&lt;/a&gt;] -         Allow marketplace package generation with Nuxeo Platform 5.8 / Maven 3
-&lt;/li&gt;
-&lt;/ul&gt;
-        Release Notes - Nuxeo IDE - Version 1.2.3
-
-&lt;h2&gt;        Improvement
-&lt;/h2&gt;
-&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;https://jira.nuxeo.com/browse/NXIDE-332&quot;&gt;NXIDE-332&lt;/a&gt;] -         Include log4j configuration file by default when creating a new NX plugin project
-&lt;/li&gt;
-&lt;/ul&gt;&lt;h2&gt;        Task
-&lt;/h2&gt;
-&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;https://jira.nuxeo.com/browse/NXIDE-333&quot;&gt;NXIDE-333&lt;/a&gt;] -         upgrade build to luna platform
-&lt;/li&gt;
-&lt;/ul&gt;
-
-        Release Notes - Nuxeo IDE - Version 1.2.2
-
-&lt;h2&gt;        Bug
-&lt;/h2&gt;
-&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;https://jira.nuxeo.com/browse/NXIDE-312&quot;&gt;NXIDE-312&lt;/a&gt;] -         Building a marketplace package (mp) puts the Studio projects in libs
-&lt;/li&gt;
-&lt;li&gt;[&lt;a href=&quot;https://jira.nuxeo.com/browse/NXIDE-323&quot;&gt;NXIDE-323&lt;/a&gt;] -         Marketplace Packaging must use ant-assembly-maven-plugin since Nuxeo 5.9.2
-&lt;/li&gt;
-&lt;li&gt;[&lt;a href=&quot;https://jira.nuxeo.com/browse/NXIDE-330&quot;&gt;NXIDE-330&lt;/a&gt;] -         Fix marketplace project creation wizard
-&lt;/li&gt;
-&lt;/ul&gt;
-       Release Notes - Nuxeo IDE - Version 1.2.1
-                
-&lt;h2&gt;        Bug
-&lt;/h2&gt;
-&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;https://jira.nuxeo.com/browse/NXIDE-302&quot;&gt;NXIDE-302&lt;/a&gt;] -         nxsdk is not filled properly
-&lt;/li&gt;
-&lt;li&gt;[&lt;a href=&quot;https://jira.nuxeo.com/browse/NXIDE-305&quot;&gt;NXIDE-305&lt;/a&gt;] -         Wrong exclusions in marketplace assembly.xml
-&lt;/li&gt;
-&lt;li&gt;[&lt;a href=&quot;https://jira.nuxeo.com/browse/NXIDE-307&quot;&gt;NXIDE-307&lt;/a&gt;] -         Nuxeo plugin project wizard does not include Studio repo in the pom.xml
-&lt;/li&gt;
-&lt;li&gt;[&lt;a href=&quot;https://jira.nuxeo.com/browse/NXIDE-308&quot;&gt;NXIDE-308&lt;/a&gt;] -         Nuxeo plugin project wizard does not include java compilator configuration in the pom.xml
-&lt;/li&gt;
-&lt;li&gt;[&lt;a href=&quot;https://jira.nuxeo.com/browse/NXIDE-312&quot;&gt;NXIDE-312&lt;/a&gt;] -         Building a marketplace package (mp) puts the Studio projects in libs
-&lt;/li&gt;
-&lt;/ul&gt;&lt;h2&gt;        Improvement
-&lt;/h2&gt;
-&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;https://jira.nuxeo.com/browse/NXIDE-311&quot;&gt;NXIDE-311&lt;/a&gt;] -         Add icons for Form layouts, Table layouts, and Tabs Nuxeo Studio tab items
-&lt;/li&gt;
-&lt;li&gt;[&lt;a href=&quot;https://jira.nuxeo.com/browse/NXIDE-324&quot;&gt;NXIDE-324&lt;/a&gt;] -         Align all templates of marketplace project wizard and poms on Nuxeo modules update and include ant assembly plugin.
-&lt;/li&gt;
-&lt;/ul&gt;
-
-        Release Notes - Nuxeo ECM IDE - Version 1.2
-                
-&lt;h2&gt;        Bug
-&lt;/h2&gt;
-&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;https://jira.nuxeo.com/browse/NXIDE-102&quot;&gt;NXIDE-102&lt;/a&gt;] -         GAV description is not saved when entered in the Nuxeo/User libraries preference
-&lt;/li&gt;
-&lt;li&gt;[&lt;a href=&quot;https://jira.nuxeo.com/browse/NXIDE-117&quot;&gt;NXIDE-117&lt;/a&gt;] -         server refresh button is not synchronized with server state
-&lt;/li&gt;
-&lt;li&gt;[&lt;a href=&quot;https://jira.nuxeo.com/browse/NXIDE-131&quot;&gt;NXIDE-131&lt;/a&gt;] -         Remove dev.bundles at deploy time if no bundles are selected
-&lt;/li&gt;
-&lt;li&gt;[&lt;a href=&quot;https://jira.nuxeo.com/browse/NXIDE-139&quot;&gt;NXIDE-139&lt;/a&gt;] -         studio projects aren&#039;t loaded in tests
-&lt;/li&gt;
-&lt;li&gt;[&lt;a href=&quot;https://jira.nuxeo.com/browse/NXIDE-140&quot;&gt;NXIDE-140&lt;/a&gt;] -         studio projects are not taken in account in POM synch
-&lt;/li&gt;
-&lt;li&gt;[&lt;a href=&quot;https://jira.nuxeo.com/browse/NXIDE-142&quot;&gt;NXIDE-142&lt;/a&gt;] -         Structure Templates Issue
-&lt;/li&gt;
-&lt;li&gt;[&lt;a href=&quot;https://jira.nuxeo.com/browse/NXIDE-143&quot;&gt;NXIDE-143&lt;/a&gt;] -         IDE Launcher Windows Issue
-&lt;/li&gt;
-&lt;li&gt;[&lt;a href=&quot;https://jira.nuxeo.com/browse/NXIDE-144&quot;&gt;NXIDE-144&lt;/a&gt;] -         Error while exporting operations annotated with params
-&lt;/li&gt;
-&lt;li&gt;[&lt;a href=&quot;https://jira.nuxeo.com/browse/NXIDE-147&quot;&gt;NXIDE-147&lt;/a&gt;] -         Seam bean creation
-&lt;/li&gt;
-&lt;li&gt;[&lt;a href=&quot;https://jira.nuxeo.com/browse/NXIDE-148&quot;&gt;NXIDE-148&lt;/a&gt;] -         Operation category shell bug
-&lt;/li&gt;
-&lt;li&gt;[&lt;a href=&quot;https://jira.nuxeo.com/browse/NXIDE-149&quot;&gt;NXIDE-149&lt;/a&gt;] -         Cat Exception with Nuxeo IDE embedded shell 
-&lt;/li&gt;
-&lt;li&gt;[&lt;a href=&quot;https://jira.nuxeo.com/browse/NXIDE-150&quot;&gt;NXIDE-150&lt;/a&gt;] -         server is not starting with the SDK template anymore
-&lt;/li&gt;
-&lt;li&gt;[&lt;a href=&quot;https://jira.nuxeo.com/browse/NXIDE-151&quot;&gt;NXIDE-151&lt;/a&gt;] -         SDK is shutdown just after the launcher exit
-&lt;/li&gt;
-&lt;li&gt;[&lt;a href=&quot;https://jira.nuxeo.com/browse/NXIDE-156&quot;&gt;NXIDE-156&lt;/a&gt;] -         Typo in /templates/sdk/nuxeo.defaults
-&lt;/li&gt;
-&lt;li&gt;[&lt;a href=&quot;https://jira.nuxeo.com/browse/NXIDE-159&quot;&gt;NXIDE-159&lt;/a&gt;] -         Improve the generated POM
-&lt;/li&gt;
-&lt;li&gt;[&lt;a href=&quot;https://jira.nuxeo.com/browse/NXIDE-243&quot;&gt;NXIDE-243&lt;/a&gt;] -         seam.properties it not created into the Service Bean template
-&lt;/li&gt;
-&lt;li&gt;[&lt;a href=&quot;https://jira.nuxeo.com/browse/NXIDE-284&quot;&gt;NXIDE-284&lt;/a&gt;] -         &quot;Export Operation&quot; to Studio project removes all pre-existing operations
-&lt;/li&gt;
-&lt;li&gt;[&lt;a href=&quot;https://jira.nuxeo.com/browse/NXIDE-294&quot;&gt;NXIDE-294&lt;/a&gt;] -         Fix projects listings when a lot of projects are available
-&lt;/li&gt;
-&lt;li&gt;[&lt;a href=&quot;https://jira.nuxeo.com/browse/NXIDE-297&quot;&gt;NXIDE-297&lt;/a&gt;] -         Align org.osgi dependency on NXP updates
-&lt;/li&gt;
-&lt;/ul&gt;&lt;h2&gt;        Clean up
-&lt;/h2&gt;
-&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;https://jira.nuxeo.com/browse/NXIDE-132&quot;&gt;NXIDE-132&lt;/a&gt;] -         change ecr default URL in shell with the nuxeo one
-&lt;/li&gt;
-&lt;/ul&gt;&lt;h2&gt;        Improvement
-&lt;/h2&gt;
-&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;https://jira.nuxeo.com/browse/NXIDE-81&quot;&gt;NXIDE-81&lt;/a&gt;] -         Add a rest unit test and a studio project backed unit test
-&lt;/li&gt;
-&lt;li&gt;[&lt;a href=&quot;https://jira.nuxeo.com/browse/NXIDE-100&quot;&gt;NXIDE-100&lt;/a&gt;] -         repository section and version in pom synch
-&lt;/li&gt;
-&lt;li&gt;[&lt;a href=&quot;https://jira.nuxeo.com/browse/NXIDE-118&quot;&gt;NXIDE-118&lt;/a&gt;] -         be able to configure sources at classpath entry level
-&lt;/li&gt;
-&lt;li&gt;[&lt;a href=&quot;https://jira.nuxeo.com/browse/NXIDE-133&quot;&gt;NXIDE-133&lt;/a&gt;] -         Add Nuxeo nature action must also convert the classpath
-&lt;/li&gt;
-&lt;li&gt;[&lt;a href=&quot;https://jira.nuxeo.com/browse/NXIDE-141&quot;&gt;NXIDE-141&lt;/a&gt;] -         aggregate [test-]artifacts-*.properties
-&lt;/li&gt;
-&lt;li&gt;[&lt;a href=&quot;https://jira.nuxeo.com/browse/NXIDE-224&quot;&gt;NXIDE-224&lt;/a&gt;] -         Keep stop button enable for killing server process
-&lt;/li&gt;
-&lt;li&gt;[&lt;a href=&quot;https://jira.nuxeo.com/browse/NXIDE-290&quot;&gt;NXIDE-290&lt;/a&gt;] -         Make the studio download project quick
-&lt;/li&gt;
-&lt;/ul&gt;&lt;h2&gt;        New Feature
-&lt;/h2&gt;
-&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;https://jira.nuxeo.com/browse/NXIDE-49&quot;&gt;NXIDE-49&lt;/a&gt;] -         Improve reloading by moving it into runtime-osgi
-&lt;/li&gt;
-&lt;li&gt;[&lt;a href=&quot;https://jira.nuxeo.com/browse/NXIDE-137&quot;&gt;NXIDE-137&lt;/a&gt;] -         create apricot wizards
-&lt;/li&gt;
-&lt;li&gt;[&lt;a href=&quot;https://jira.nuxeo.com/browse/NXIDE-273&quot;&gt;NXIDE-273&lt;/a&gt;] -         Add Nuxeo Markeplace Template
-&lt;/li&gt;
-&lt;li&gt;[&lt;a href=&quot;https://jira.nuxeo.com/browse/NXIDE-282&quot;&gt;NXIDE-282&lt;/a&gt;] -         Add content assist in Nuxeo XML component editor
-&lt;/li&gt;
-&lt;/ul&gt;&lt;h2&gt;        Task
-&lt;/h2&gt;
-&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;https://jira.nuxeo.com/browse/NXIDE-175&quot;&gt;NXIDE-175&lt;/a&gt;] -         Make a pre integrated Eclipse distribution
-&lt;/li&gt;
-&lt;li&gt;[&lt;a href=&quot;https://jira.nuxeo.com/browse/NXIDE-244&quot;&gt;NXIDE-244&lt;/a&gt;] -         adapt build for juno
-&lt;/li&gt;
-&lt;li&gt;[&lt;a href=&quot;https://jira.nuxeo.com/browse/NXIDE-291&quot;&gt;NXIDE-291&lt;/a&gt;] -         Adding a page listing all the known issues with IDE 
-&lt;/li&gt;
-&lt;/ul&gt;&lt;/dl&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
-     <pubDate>Mon, 03 Oct 2011 17:33:48 +0000</pubDate>
- <dc:creator>slacoin</dc:creator>
- <guid isPermaLink="false">129611 at http://marketplace.eclipse.org</guid>
- <comments>http://marketplace.eclipse.org/content/nuxeo-ide#comments</comments>
-  </item>
-  <item>
-    <title>SonarLint</title>
-    <link>http://marketplace.eclipse.org/content/sonarlint</link>
-    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/sonarlint-110x80_0.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2015-10-15 14:54&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Mon, 2017-02-20 10:04&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22SonarSource%20S.A%22&quot;&gt;SonarSource S.A&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/jhenrym6y/listings&quot; title=&quot;Julien HENRY&quot;&gt;Julien HENRY&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;SonarLint is an Eclipse plugin that provides on-the-fly feedback to developers on new bugs and quality issues injected into Java, JavaScript and PHP code.&lt;/p&gt;
-&lt;p&gt;If your project is analysed on SonarQube (formerly known as &quot;Sonar&quot;), SonarLint can connect to the server to retrieve the appropriate quality profiles and settings for that project.&lt;/p&gt;
-&lt;p&gt;Documentation: &lt;a href=&quot;http://eclipse.sonarlint.org/&quot;&gt;http://eclipse.sonarlint.org/&lt;/a&gt;&lt;br /&gt;
-For any question or feedback please join the &lt;a href=&quot;https://groups.google.com/forum/#!forum/sonarlint&quot;&gt;SonarLint User group&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Running Eclipse Kepler SR1+ with a JDK 8+ is required since version 2.2.0.&lt;/p&gt;
+    <title>PL/SQL Enterprise Workbench</title>
+    <link>http://marketplace.eclipse.org/content/plsql-enterprise-workbench</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/default_images/default_2.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Mon, 2017-02-27 18:53&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2017-02-28 09:27&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Jan%20Richter%2C%20Germany%2C%20Hamburg%22&quot;&gt;Jan Richter, Germany, Hamburg&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/jrichter847/listings&quot; title=&quot;Jan Richter&quot;&gt;Jan Richter&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;The PL/SQL Enterprise Workbench integrates a powerful editor to edit PL/SQL procedures, functions and packages. All resources are file based and automatically supports the installed team scm system like svn, git etc.&lt;/p&gt;
+&lt;p&gt;The PL/SQL Connector Builder generates Java access classes. The generated Java code is organized as the JEE base patterns : Implementation classes, transfer object classes, service interfaces and remote call service factories.&lt;/p&gt;
+&lt;p&gt;Oracle Parameter types of collection tables, collection varrays, object types, typed ref cursors, xml_type, sdo_geometry, inherited objects and more are supported. It simple prepares stored procedure calls for bulk processing and other tuning.&lt;/p&gt;
+&lt;p&gt;Have a closer look at the documentation at : &lt;a href=&quot;http://www.jr-database-tools.de&quot;&gt;www.jr-database-tools.de&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
-     <pubDate>Thu, 15 Oct 2015 18:54:47 +0000</pubDate>
- <dc:creator>jhenrym6y</dc:creator>
- <guid isPermaLink="false">2568658 at http://marketplace.eclipse.org</guid>
- <comments>http://marketplace.eclipse.org/content/sonarlint#comments</comments>
+     <pubDate>Mon, 27 Feb 2017 23:53:17 +0000</pubDate>
+ <dc:creator>jrichter847</dc:creator>
+ <guid isPermaLink="false">3315242 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/plsql-enterprise-workbench#comments</comments>
   </item>
   <item>
-    <title>RepreZen API Studio</title>
-    <link>http://marketplace.eclipse.org/content/reprezen-api-studio</link>
-    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/icon-eclipse-marketplace.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2016-10-27 21:28&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Mon, 2017-02-20 07:51&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22RepreZen%22&quot;&gt;RepreZen&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/tepsteinccr/listings&quot; title=&quot;Theodore Epstein&quot;&gt;Theodore Epstein&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;div&gt;
-&lt;p&gt;RepreZen API Studio is the most productive REST API design environment, with breakthrough capabilities to help you design, document and deliver world-class APIs and microservices in a fraction of the time. &lt;/p&gt;
-&lt;div style=&quot;background-color: orange; border-radius: 5px; border-style: solid; border-color: #cccccc;border-width: 1px;&quot;&gt;
-&lt;table&gt;&lt;tr&gt;&lt;td style=&quot;vertical-align: top;&quot;&gt;&lt;strong&gt;New 1.5 Release!&lt;/strong&gt;&lt;/td&gt;
-&lt;td style=&quot;vertical-align: top;&quot;&gt;With comprehensive multi-file project support, synchronized documentation view, expanded code generation with NSwag for .NET, and more....&lt;br /&gt;&lt;/td&gt;
-&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;
-&lt;p&gt; &lt;br /&gt;Key capabilities:&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Model your APIs&lt;/strong&gt; with industry-standard &lt;a href=&quot;http://swagger.io&quot;&gt;Swagger&lt;/a&gt;–&lt;a href=&quot;http://openapis.org/&quot;&gt;OpenAPI&lt;/a&gt; or with &lt;a href=&quot;http://rapid-api.org/rapid-ml&quot;&gt;RAPID-ML&lt;/a&gt;, an innovative, domain-driven API modeling language.&lt;/li&gt;
-&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Full-featured Editors&lt;/strong&gt;, with code assist, customizable templates, detailed validation messages, outline view, customizable fonts &amp;amp; syntax color themes.&lt;br /&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Live documentation and diagram views&lt;/strong&gt; give you immediate insight to your API design, as you edit. You can also generate and publish these as documentation for your API client developers.&lt;br /&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Easily supports large multi-file projects&lt;/strong&gt;, allowing you to split a Swagger Specification across multiple files for easier navigation and team collaboration. One of our users, working on a massive API documentation catalog, thinks API Studio is &quot;&lt;a href=&quot;https://www.g2crowd.com/survey_responses/reprezen-api-studio-review-129992&quot;&gt;Likely the best Swagger editor on planet Earth&lt;/a&gt;&quot; for this reason.  :-)&lt;br /&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Built-in sandbox testing&lt;/strong&gt; with the integrated mock service and Swagger-UI view.&lt;br /&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Powerful, extensible code gen framework&lt;/strong&gt;, to build &lt;a href=&quot;http://docs.reprezen.com/#code-gen&quot;&gt;custom generators&lt;/a&gt;. It uses a template-based JVM language called Xtend, with an integrated debugger. We also fully support Swagger-Codegen, with 18 server implementation templates, 30 client libraries, and a growing collection of 3rd-party open source generators that you can &lt;a href=&quot;http://docs.reprezen.com/codegen_custom_swagger_gentemplate/&quot;&gt;easily add to API Studio&lt;/a&gt;.&lt;br /&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Maven and Gradle build automation &lt;/strong&gt;for code generation, and a convenient YAML configuration format for each generation target that provides access code gen options. Standard and custom generators all use this project structure to run inside API Studio, from the command line, or from continuous integration.&lt;/li&gt;
-&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Runs on Eclipse&lt;/strong&gt; as a standalone RCP app, or as a plug-in feature in a standard Eclipse IDE. You can do your work in your primary development space, with full access to all of your resources, not stuck in a browser sandbox.&lt;/li&gt;
-&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Plug-in team collaboration &lt;/strong&gt;with Eclipse integrations. API Studio supports a wide range of version control, issue trackers, and continuous integration tools. Git and GitHub are fully supported. Collaboration works on the platforms you&#039;re already using, so you don&#039;t have to manage a separate set of teams and permissions.&lt;/li&gt;
-&lt;/ul&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;
-&lt;div style=&quot;background-color: #d4eac9; border-radius: 5px; border-style: solid; border-color: #cccccc;border-width: 1px;&quot;&gt;
-&lt;table&gt;&lt;tr&gt;&lt;td style=&quot;vertical-align: top;&quot;&gt;&lt;strong&gt;Note:&lt;/strong&gt;&lt;/td&gt;
-&lt;td style=&quot;vertical-align: top;&quot;&gt;This is the add-on solution for Eclipse IDE distributions, Mars.2 or later. The standalone RCP application is available &lt;a href=&quot;http://reprezen.com/swagger-tools&quot;&gt;here&lt;/a&gt;.&lt;/td&gt;
-&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;
-&lt;p&gt; &lt;br /&gt;&lt;/p&gt;
-&lt;div&gt;More information:&lt;/div&gt;
-&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;http://reprezen.com/swagger-tools&quot;&gt;Product Video and Feature Tour&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://reprezen.com/pricing&quot;&gt;Plans and Pricing&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://goo.gl/dQSwjU&quot;&gt;Getting Started Videos&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://support.reprezen.com&quot;&gt;Community &amp;amp; Support Site&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://RepreZen.com/blog&quot;&gt;Blog&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
-     <pubDate>Fri, 28 Oct 2016 01:28:20 +0000</pubDate>
- <dc:creator>tepsteinccr</dc:creator>
- <guid isPermaLink="false">3138718 at http://marketplace.eclipse.org</guid>
- <comments>http://marketplace.eclipse.org/content/reprezen-api-studio#comments</comments>
+    <title>vmlens</title>
+    <link>http://marketplace.eclipse.org/content/vmlens</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/eclipse_logo.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Sun, 2013-04-28 07:37&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2017-02-28 03:21&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22vmlens%22&quot;&gt;vmlens&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/tkrieger0xc/listings&quot; title=&quot;Thomas Krieger&quot;&gt;Thomas Krieger&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;vmlens enables you to test and debug multithreaded java software. vmlens detects Race Conditions automatically using dynamic tracing. Using waitpoints you can find deadlocks and races with tests. See which monitor or field was accesed by more than one thread. See when and where they were accessed.
+&lt;/p&gt;
+&lt;p&gt;Read more about vmlens here:
+&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&quot;http://vmlens.com/&quot;&gt;http://vmlens.com&lt;/a&gt;
+&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Sun, 28 Apr 2013 11:37:58 +0000</pubDate>
+ <dc:creator>tkrieger0xc</dc:creator>
+ <guid isPermaLink="false">825595 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/vmlens#comments</comments>
+  </item>
+  <item>
+    <title>Glance</title>
+    <link>http://marketplace.eclipse.org/content/glance</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/default_images/default_2.png&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Mon, 2009-09-21 14:11&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2017-02-28 02:21&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Yuri%20Strot%22&quot;&gt;Yuri Strot&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/ystrotu5y/listings&quot; title=&quot;Yuri Strot&quot;&gt;Yuri Strot&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;Glance is about incremental text search with highlighting. That&#039;s what you can use in every modern browser and so miss in Eclipse. Glance is simple and powerful. And it works almost with any rich component which you can see inside your Eclipse.&lt;/p&gt;
+&lt;p&gt;And even more:&lt;/p&gt;
+&lt;p&gt;* it&#039;s fast and never blocks your text box&lt;br /&gt;
+* it works in editors, views and dialogs; rich texts, tables and trees&lt;br /&gt;
+* automatically update matches if content will be changed&lt;br /&gt;
+* customizable search (from case sensitivity to regular expressions)&lt;br /&gt;
+* can index trees to find hidden matches&lt;br /&gt;
+* supports GEF/GMF!&lt;/p&gt;
+&lt;p&gt;Just few shortcuts you need to remember:&lt;br /&gt;
+* open: CTRL+CMD+F on Mac and CTRL+ALT+F on other platforms&lt;br /&gt;
+* next match: ENTER; previous match: SHIFT+ENTER&lt;br /&gt;
+* close: ESC&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Mon, 21 Sep 2009 18:11:29 +0000</pubDate>
+ <dc:creator>ystrotu5y</dc:creator>
+ <guid isPermaLink="false">1012 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/glance#comments</comments>
+  </item>
+  <item>
+    <title>IBM WebSphere Application Server Liberty Developer Tools</title>
+    <link>http://marketplace.eclipse.org/content/ibm-websphere-application-server-liberty-developer-tools</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/wdt-was-lp-500_4_0_1.png&quot; width=&quot;80&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2014-07-02 08:24&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Mon, 2017-02-27 15:23&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22IBM%22&quot;&gt;IBM&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/canderson/listings&quot; title=&quot;Carl Anderson&quot;&gt;Carl Anderson&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;An eclipse IDE for building and deploying Java EE, OSGi and Web 2.0 applications to WebSphere Application Server Liberty Profile. For more information about installing and downloading the tools, including archived versions of the tools for older versions of eclipse, see &lt;a target=&quot;=&amp;quot;_blank&amp;quot;&quot; href=&quot;https://developer.ibm.com/wasdev/docs/websphere-developer-tools-releases/&quot;&gt;WebSphere Application Server Developer Tools Releases&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Wed, 02 Jul 2014 12:24:46 +0000</pubDate>
+ <dc:creator>canderson</dc:creator>
+ <guid isPermaLink="false">1778478 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/ibm-websphere-application-server-liberty-developer-tools#comments</comments>
+  </item>
+  <item>
+    <title>IBM WebSphere Application Server Liberty Developer Tools Beta</title>
+    <link>http://marketplace.eclipse.org/content/ibm-websphere-application-server-liberty-developer-tools-beta</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/wdt-was-lp-500.png&quot; width=&quot;80&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2013-10-31 15:13&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Mon, 2017-02-27 15:21&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22IBM%22&quot;&gt;IBM&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/canderson/listings&quot; title=&quot;Carl Anderson&quot;&gt;Carl Anderson&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;*Beta* An eclipse 4.x IDE for building and deploying Java EE, OSGi and Web 2.0 applications to WebSphere Application Server Liberty v9 Beta with Java EE 7. For more information about installing and downloading the tools, including archived versions of the tools for older versions of eclipse, see &lt;a target=&quot;=&amp;quot;_blank&amp;quot;&quot; href=&quot;https://developer.ibm.com/wasdev/docs/websphere-developer-tools-releases/&quot;&gt;WebSphere Application Server Developer Tools Releases&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Thu, 31 Oct 2013 19:13:37 +0000</pubDate>
+ <dc:creator>canderson</dc:creator>
+ <guid isPermaLink="false">1280744 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/ibm-websphere-application-server-liberty-developer-tools-beta#comments</comments>
   </item>
   </channel>
 </rss>

@@ -5,7 +5,6 @@ import org.usfirst.frc.team1523.robot.commands.DriveJoystick;
 
 import com.ctre.CANTalon;
 
-import edu.wpi.first.wpilibj.Encoder;
 import edu.wpi.first.wpilibj.Joystick;
 import edu.wpi.first.wpilibj.RobotDrive;
 import edu.wpi.first.wpilibj.command.Subsystem;

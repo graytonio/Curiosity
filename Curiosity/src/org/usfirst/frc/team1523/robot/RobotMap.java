@@ -34,7 +34,7 @@ public class RobotMap {
 	public static final int GEAR_IN_BUTTON = 6;
 	
 	//------------Constants--------------------------
-	public static final double DISTANCE_PER_PULSE = (Math.PI*6)/(240*4);
+	public static final double DISTANCE_PER_PULSE = (Math.PI*6)/(360*4);
 	public static double TALON_P=0.0;
 	public static double TALON_I=0.0;
 	public static double TALON_D=0.0;

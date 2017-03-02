@@ -24,13 +24,13 @@ public class AutoGear extends CommandGroup {
 	
 	
 	public void driveToGear(int pos){
-		if(pos==0){
+		if(pos==0 || pos==3){
 			addSequential(new AutoDrive(0.5, 80));
 			addSequential(new AutoTurn(-60));
 			addSequential(new AutoDrive(0.5, 25));
 		}else if(pos==1){
 			addSequential(new AutoDrive(0.5, 50));
-		}else if(pos==2){
+		}else if(pos==2 || pos==4){
 			addSequential(new AutoDrive(0.5, 80));
 			addSequential(new AutoTurn(60));
 			addSequential(new AutoDrive(0.5, 25));
@@ -40,11 +40,14 @@ public class AutoGear extends CommandGroup {
 	
 	public void getFromHopper(int pos){
 		if(pos==3){
-			
+			addSequential(new AutoDrive(0.5, -50));
+			addSequential(new AutoTurn(30));
+			addSequential(new AutoDrive(0.5, 100));
 		}else if(pos==4){
-			
+			addSequential(new AutoDrive(0.5, -50));
+			addSequential(new AutoTurn(-30));
+			addSequential(new AutoDrive(0.5, 100));
 		}
-		crossBaseLine(pos);
 	}
 	
 	public void crossBaseLine(int pos){
@@ -56,10 +59,6 @@ public class AutoGear extends CommandGroup {
 			addSequential(new AutoDrive(0.3, -30));
 			addSequential(new AutoTurn(-30));
 			addSequential(new AutoDrive(0.3, 100));
-		}else if(pos==3){
-			
-		}else if(pos==4){
-			
 		}
 	}
 	
