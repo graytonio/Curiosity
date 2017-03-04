@@ -13,7 +13,7 @@ public class Vision extends Command {
 	private NetworkTable server;
 	private final int DEAD_ZONE=10;
 	private double distance=10;
-	private double THROW_DISTANCE=80;
+	private double THROW_DISTANCE=60;
 	private boolean lastState;
 	
     public Vision() {

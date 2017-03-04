@@ -3,9 +3,6 @@ package org.usfirst.frc.team1523.robot.commands;
 import edu.wpi.first.wpilibj.command.CommandGroup;
 import edu.wpi.first.wpilibj.command.WaitCommand;
 
-/**
- *
- */
 public class AutoGear extends CommandGroup {
 
 	/*
@@ -18,35 +15,18 @@ public class AutoGear extends CommandGroup {
 	
 	public AutoGear(int pos) {
 		driveToGear(pos);
+		placeGear();
 		if(pos==0 || pos==1 || pos==2) crossBaseLine(pos);
-		else getFromHopper(pos);
 	}
-	
 	
 	public void driveToGear(int pos){
 		if(pos==0 || pos==3){
-			addSequential(new AutoDrive(0.5, 80));
-			addSequential(new AutoTurn(-60));
-			addSequential(new AutoDrive(0.5, 25));
+			addSequential(new AutoDrive(0.5, 55));
+			addSequential(new AutoTurn(-55));
 		}else if(pos==1){
-			addSequential(new AutoDrive(0.5, 50));
 		}else if(pos==2 || pos==4){
-			addSequential(new AutoDrive(0.5, 80));
-			addSequential(new AutoTurn(60));
-			addSequential(new AutoDrive(0.5, 25));
-		}
-		placeGear();
-	}
-	
-	public void getFromHopper(int pos){
-		if(pos==3){
-			addSequential(new AutoDrive(0.5, -50));
-			addSequential(new AutoTurn(30));
-			addSequential(new AutoDrive(0.5, 100));
-		}else if(pos==4){
-			addSequential(new AutoDrive(0.5, -50));
-			addSequential(new AutoTurn(-30));
-			addSequential(new AutoDrive(0.5, 100));
+			addSequential(new AutoDrive(0.5, 55));
+			addSequential(new AutoTurn(55));
 		}
 	}
 	
@@ -55,6 +35,7 @@ public class AutoGear extends CommandGroup {
 			addSequential(new AutoDrive(0.3, -30));
 			addSequential(new AutoTurn(30));
 			addSequential(new AutoDrive(0.3, 100));
+			
 		}else if(pos==2){
 			addSequential(new AutoDrive(0.3, -30));
 			addSequential(new AutoTurn(-30));

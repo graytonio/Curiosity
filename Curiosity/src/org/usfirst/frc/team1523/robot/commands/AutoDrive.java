@@ -31,13 +31,13 @@ public class AutoDrive extends Command {
     		if(Robot.drive.getLeftDistance()<-distance){
         		Robot.drive.drive(0, speed, 0);
         	}else{
-        		finished=true;
+        		this.finished=true;
         	}
     	}else{
     		if(Robot.drive.getRightDistance()<distance){
         		Robot.drive.drive(0, -speed, 0);
         	}else{
-        		finished=true;
+        		this.finished=true;
         	}
     	}
     	

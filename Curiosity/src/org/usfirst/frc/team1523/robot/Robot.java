@@ -54,11 +54,16 @@ public class Robot extends IterativeRobot {
 		chooser.addObject("Right", new AutoGear(2));
 		chooser.addObject("Vison Test", new AutoGear(3));
 		chooser.addDefault("Nothing", null);
+		
 		SmartDashboard.putData("Auto Choice", chooser);
 	}
 
 	@Override
-	public void disabledInit() {}
+	public void disabledInit() {
+		autonomousCommand.cancel();
+		drive.reset();
+		gyro.reset();
+	}
 
 	@Override
 	public void disabledPeriodic() {
@@ -81,7 +86,7 @@ public class Robot extends IterativeRobot {
 
 	@Override
 	public void teleopInit() {
-		if (autonomousCommand != null) autonomousCommand.cancel();
+		autonomousCommand.cancel();
 		CameraManager.tele();
 		drive.reset();
 		gyro.reset();

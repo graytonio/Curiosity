@@ -9,7 +9,7 @@ import edu.wpi.first.wpilibj.command.Command;
  */
 public class AutoTurn extends Command {
 
-	private double angle;
+	private double angle=0;
 	
 	private boolean finished = false;
 	
@@ -29,13 +29,13 @@ public class AutoTurn extends Command {
     		if(Robot.gyro.getAngle()<angle){
     			Robot.drive.drive(0, 0, 0.3);
     		}else{
-    			finished = true;
+    			this.finished = true;
     		}
     	}else{
     		if(Robot.gyro.getAngle()>angle){
     			Robot.drive.drive(0, 0, -0.3);
     		}else{
-    			finished=true;
+    			this.finished=true;
     		}
     	}
     }
