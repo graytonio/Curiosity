@@ -1,25 +1,2 @@
 INDEX VERSION 1.129+/Users/graytonio/Documents/GitHub/Curiosity/.metadata/.plugins/org.eclipse.jdt.core
-2713033977.index
-1542869991.index
 1293641126.index
-4170878261.index
-3704923105.index
-4145659276.index
-185600855.index
-2096620088.index
-2497576214.index
-62925260.index
-2502446416.index
-965360491.index
-3592926953.index
-1892242063.index
-1271342938.index
-1832341637.index
-3435966571.index
-1873325035.index
-3609545612.index
-395996804.index
-382740279.index
-2601132907.index
-2904613641.index
-1534746520.index

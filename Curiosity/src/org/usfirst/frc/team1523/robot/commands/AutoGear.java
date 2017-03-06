@@ -21,11 +21,12 @@ public class AutoGear extends CommandGroup {
 	
 	public void driveToGear(int pos){
 		if(pos==0 || pos==3){
-			addSequential(new AutoDrive(0.5, 55));
+			addSequential(new AutoDrive(0.5, 90));
 			addSequential(new AutoTurn(-55));
 		}else if(pos==1){
+			addSequential(new AutoDrive(0.5, 40));
 		}else if(pos==2 || pos==4){
-			addSequential(new AutoDrive(0.5, 55));
+			addSequential(new AutoDrive(0.5, 90));
 			addSequential(new AutoTurn(55));
 		}
 	}

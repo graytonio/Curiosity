@@ -2,6 +2,7 @@
 package org.usfirst.frc.team1523.robot;
 
 import org.usfirst.frc.team1523.robot.commands.AutoGear;
+import org.usfirst.frc.team1523.robot.commands.DriveAcrossBaseLine;
 import org.usfirst.frc.team1523.robot.subsystems.Ball;
 import org.usfirst.frc.team1523.robot.subsystems.Drive;
 import org.usfirst.frc.team1523.robot.subsystems.Gear;
@@ -52,7 +53,7 @@ public class Robot extends IterativeRobot {
 		chooser.addObject("Center", new AutoGear(1));
 		chooser.addObject("Left", new AutoGear(0));
 		chooser.addObject("Right", new AutoGear(2));
-		chooser.addObject("Vison Test", new AutoGear(3));
+		chooser.addObject("Drive Across Baseline", new DriveAcrossBaseLine());
 		chooser.addDefault("Nothing", null);
 		
 		SmartDashboard.putData("Auto Choice", chooser);
@@ -60,7 +61,6 @@ public class Robot extends IterativeRobot {
 
 	@Override
 	public void disabledInit() {
-		autonomousCommand.cancel();
 		drive.reset();
 		gyro.reset();
 	}
@@ -86,7 +86,6 @@ public class Robot extends IterativeRobot {
 
 	@Override
 	public void teleopInit() {
-		autonomousCommand.cancel();
 		CameraManager.tele();
 		drive.reset();
 		gyro.reset();

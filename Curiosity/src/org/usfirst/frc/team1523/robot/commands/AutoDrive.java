@@ -28,13 +28,13 @@ public class AutoDrive extends Command {
     // Called repeatedly when this Command is scheduled to run
     protected void execute() {
     	if(distance<0){
-    		if(Robot.drive.getLeftDistance()<-distance){
+    		if(Robot.drive.getLeftDistance()<-this.distance){
         		Robot.drive.drive(0, speed, 0);
         	}else{
         		this.finished=true;
         	}
     	}else{
-    		if(Robot.drive.getRightDistance()<distance){
+    		if(Robot.drive.getRightDistance()<this.distance){
         		Robot.drive.drive(0, -speed, 0);
         	}else{
         		this.finished=true;
@@ -45,7 +45,7 @@ public class AutoDrive extends Command {
 
     // Make this return true when this Command no longer needs to run execute()
     protected boolean isFinished() {
-        return finished;
+        return this.finished;
     }
 
     // Called once after isFinished returns true
