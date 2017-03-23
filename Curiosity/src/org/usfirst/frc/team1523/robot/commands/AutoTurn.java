@@ -25,16 +25,25 @@ public class AutoTurn extends Command {
 
     // Called repeatedly when this Command is scheduled to run
     protected void execute() {
+    	//The gyro is mounted upside down so the values for left and right are inverted
+    	//Turn Left
     	if(angle>0){
+    		//If the gyro is not at the correct angle yet
     		if(Robot.gyro.getAngle()<angle){
+    			//Turn left
     			Robot.drive.drive(0, 0, 0.3);
     		}else{
+    			//Stop
     			this.finished = true;
     		}
+    	//Turn Right
     	}else{
+    		//If the gyro is not at the correct angle yet
     		if(Robot.gyro.getAngle()>angle){
+    			//Turn right
     			Robot.drive.drive(0, 0, -0.3);
     		}else{
+    			//Stop
     			this.finished=true;
     		}
     	}

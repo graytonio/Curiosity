@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="edu.wpi.first.wpilibj.command.Scheduler"/>
+<fullyQualifiedTypeName name="org.usfirst.frc.team1523.robot.RobotMap"/>
 <fullyQualifiedTypeName name="org.usfirst.frc.team1523.robot.Robot"/>
+<fullyQualifiedTypeName name="org.usfirst.frc.team1523.robot.CameraManager"/>
+<fullyQualifiedTypeName name="org.opencv.videoio.VideoCapture"/>
+<fullyQualifiedTypeName name="edu.wpi.first.wpilibj.smartdashboard.SmartDashboard"/>
+<fullyQualifiedTypeName name="org.opencv.core.Rect"/>
+<fullyQualifiedTypeName name="org.opencv.imgproc.Imgproc"/>
 </qualifiedTypeNameHistroy>

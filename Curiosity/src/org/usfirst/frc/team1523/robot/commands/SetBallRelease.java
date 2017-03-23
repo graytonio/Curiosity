@@ -23,6 +23,7 @@ public class SetBallRelease extends Command {
 
     // Called repeatedly when this Command is scheduled to run
     protected void execute() {
+    	//Send to subsystem
     	Robot.ball.set(state);
     }
 

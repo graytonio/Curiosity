@@ -11,6 +11,7 @@ public class PickupBall extends Command {
 
     public PickupBall() {
         requires(Robot.ball);
+        //Always check for button hold
         setTimeout(0.1);
     }
 
@@ -20,6 +21,7 @@ public class PickupBall extends Command {
 
     // Called repeatedly when this Command is scheduled to run
     protected void execute() {
+    	//Turn on motor
     	Robot.ball.set(1.0);
     }
 

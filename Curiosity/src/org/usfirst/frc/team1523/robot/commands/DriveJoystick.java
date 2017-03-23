@@ -19,6 +19,7 @@ public class DriveJoystick extends Command {
 
     // Called repeatedly when this Command is scheduled to run
     protected void execute() {
+    	//Get Joystick Input for Subsystem
     	Robot.drive.drive(Robot.oi.getStick0());
     }
 

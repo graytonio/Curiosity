@@ -1,6 +1,8 @@
 
 package org.usfirst.frc.team1523.robot;
 
+import org.opencv.core.Rect;
+import org.opencv.imgproc.Imgproc;
 import org.usfirst.frc.team1523.robot.commands.AutoGear;
 import org.usfirst.frc.team1523.robot.commands.DriveAcrossBaseLine;
 import org.usfirst.frc.team1523.robot.subsystems.Ball;
@@ -17,6 +19,7 @@ import edu.wpi.first.wpilibj.interfaces.Gyro;
 import edu.wpi.first.wpilibj.networktables.NetworkTable;
 import edu.wpi.first.wpilibj.smartdashboard.SendableChooser;
 import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
+import edu.wpi.first.wpilibj.vision.VisionThread;
 
 public class Robot extends IterativeRobot {
 
@@ -28,16 +31,22 @@ public class Robot extends IterativeRobot {
 
 	public static Gyro gyro;
 	public static Compressor comp;
-	
+
+	public static VisionThread vision;
+	public static double x;
+	public static double distance;
+
 	Command autonomousCommand;
 	SendableChooser<Command> chooser = new SendableChooser<>();
 
 	@Override
 	public void robotInit() {
+		//Initialize Network Tables
 		NetworkTable.initialize();
 		NetworkTable.flush();
 		CameraManager.init();
-		
+
+		//Create Subsystem Objects
 		comp = new Compressor(0);
 		comp.setClosedLoopControl(true);
 		gyro = new ADXRS450_Gyro();
@@ -46,17 +55,28 @@ public class Robot extends IterativeRobot {
 		gear = new Gear();
 		rope = new Rope();
 		oi = new OI();
-		
+
+		//Reset Hardware Values
 		drive.reset();
 		gyro.calibrate();
-		
+
+		//Create Autonomous Chooser
 		chooser.addObject("Center", new AutoGear(1));
 		chooser.addObject("Left", new AutoGear(0));
 		chooser.addObject("Right", new AutoGear(2));
 		chooser.addObject("Drive Across Baseline", new DriveAcrossBaseLine());
 		chooser.addDefault("Nothing", null);
-		
 		SmartDashboard.putData("Auto Choice", chooser);
+		
+		//Start Vision Thread
+		vision = new VisionThread(CameraManager.cam1, new GripPipeline(), grip ->{
+			Rect r1 = Imgproc.boundingRect(grip.convexHullsOutput().get(0));
+			Rect r2 = Imgproc.boundingRect(grip.convexHullsOutput().get(1));
+			x = ((r1.x + r1.width/2) + (r2.x + r2.width/2)) / 2;
+			distance = r1.x;
+			System.out.println("STEP: X: " + x + " Distance: " + distance);
+		});
+		vision.start();
 	}
 
 	@Override
@@ -73,6 +93,7 @@ public class Robot extends IterativeRobot {
 
 	@Override
 	public void autonomousInit() {
+		//Auto Camera Settings
 		CameraManager.auto();
 		autonomousCommand = chooser.getSelected();
 		if (autonomousCommand != null) autonomousCommand.start();
@@ -86,6 +107,7 @@ public class Robot extends IterativeRobot {
 
 	@Override
 	public void teleopInit() {
+		//Teleop Camera Settings
 		CameraManager.tele();
 		drive.reset();
 		gyro.reset();
@@ -98,8 +120,11 @@ public class Robot extends IterativeRobot {
 	}
 
 	public void log(){
+		//Put important data in dashboard
 		SmartDashboard.putNumber("Right Drive", drive.getRightDistance());
 		SmartDashboard.putNumber("Left Drive", drive.getLeftDistance());
 		SmartDashboard.putNumber("Gyro Reading", gyro.getAngle());
+		SmartDashboard.putNumber("X Reading", x);
+		SmartDashboard.putNumber("Distance Value", distance);
 	}
 }

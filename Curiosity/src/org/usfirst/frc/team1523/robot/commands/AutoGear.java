@@ -16,27 +16,30 @@ public class AutoGear extends CommandGroup {
 	public AutoGear(int pos) {
 		driveToGear(pos);
 		placeGear();
-		if(pos==0 || pos==1 || pos==2) crossBaseLine(pos);
 	}
 	
 	public void driveToGear(int pos){
-		if(pos==0 || pos==3){
-			addSequential(new AutoDrive(0.5, 90));
+		//Left
+		if(pos==0){
+			addSequential(new AutoDrive(0.5, 80));
 			addSequential(new AutoTurn(-55));
+		//Center
 		}else if(pos==1){
 			addSequential(new AutoDrive(0.5, 40));
-		}else if(pos==2 || pos==4){
-			addSequential(new AutoDrive(0.5, 90));
+		//Right
+		}else if(pos==2){
+			addSequential(new AutoDrive(0.5, 80));
 			addSequential(new AutoTurn(55));
 		}
 	}
 	
 	public void crossBaseLine(int pos){
+		//Left
 		if(pos==0){
 			addSequential(new AutoDrive(0.3, -30));
 			addSequential(new AutoTurn(30));
 			addSequential(new AutoDrive(0.3, 100));
-			
+		//Right	
 		}else if(pos==2){
 			addSequential(new AutoDrive(0.3, -30));
 			addSequential(new AutoTurn(-30));
@@ -45,7 +48,9 @@ public class AutoGear extends CommandGroup {
 	}
 	
 	public void placeGear(){
+		//Find Target
 		addSequential(new Vision());
+		//Put Gear on Peg
 		addSequential(new SetUpperGear(false));
 		addSequential(new WaitCommand(0.5));
 		addSequential(new SetUpperGear(true));

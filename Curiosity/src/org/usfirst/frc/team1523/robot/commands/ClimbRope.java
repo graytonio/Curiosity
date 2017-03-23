@@ -11,6 +11,7 @@ public class ClimbRope extends Command {
 	
     public ClimbRope() {
         requires(Robot.rope);
+        //Always be checking for the button press
         setTimeout(0.1);
     }
 
@@ -20,6 +21,7 @@ public class ClimbRope extends Command {
 
     // Called repeatedly when this Command is scheduled to run
     protected void execute() {
+    	//Go up at full speed
     	Robot.rope.run(-1.0);
     }
 

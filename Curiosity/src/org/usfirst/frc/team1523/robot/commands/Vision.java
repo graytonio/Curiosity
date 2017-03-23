@@ -10,66 +10,54 @@ import edu.wpi.first.wpilibj.networktables.NetworkTable;
  */
 public class Vision extends Command {
 
-	private NetworkTable server;
 	private final int DEAD_ZONE=10;
-	private double distance=10;
 	private double THROW_DISTANCE=60;
 	private boolean lastState;
+	private NetworkTable server;
+	private double distance;
+
+	public Vision() {
+		requires(Robot.drive);
+		requires(Robot.gear);
+		server = NetworkTable.getTable("SmartDashboard");
+	}
+
+	protected void execute() {
+		double x = getX();												//Get center x of target
+		distance = getDistance();										//Get distance to target
+		if(x<=0){														//If robot lost target
+			Robot.drive.stop();											//Stop moving
+		}else if(x>80+DEAD_ZONE){										//If Robot is too far to the right
+			Robot.drive.drive(0.4, 0, 0);								//Move to the left
+			lastState=true;												//Set last state to left
+		}else if(x<80-DEAD_ZONE){										//If Robot is too far to the left
+			Robot.drive.drive(-0.4, 0, 0);								//Move to the right
+			lastState=false;											//Set last state to right
+		}else if(distance<THROW_DISTANCE) Robot.drive.drive(0, -0.2, 0);//If the distance to the target is below the threshold drive forward slowly
+		else Robot.drive.stop();										//If the distance to the target is above the threshold stop and move to the next command
+	}
+
+	// Make this return true when this Command no longer needs to run execute()
+	protected boolean isFinished() {
+		return distance>THROW_DISTANCE;
+	}
+
+	// Called once after isFinished returns true
+	protected void end() {
+		Robot.drive.stop();
+	}
 	
-    public Vision() {
-    	requires(Robot.drive);
-    	requires(Robot.gear);
-    	server=NetworkTable.getTable("SmartDashboard");
-    }
+	private double getX(){
+		return Robot.x;
+	}
+	
+	private double getDistance(){
+		return Robot.distance;
+	}
 
-    // Called repeatedly when this Command is scheduled to run
-    protected void execute() {
-    	double x = getLinePatternX();
-    	distance = getDistance();
-    	if(x<0){
-    		if(lastState){
-    			Robot.drive.drive(0.4, 0, 0);
-    		}else{
-    			Robot.drive.drive(-0.4, 0, 0);
-    		}
-    	}else if(x>80+DEAD_ZONE){
-    		Robot.drive.drive(0.4, 0, 0);
-    		lastState=true;
-    	}else if(x<80-DEAD_ZONE){
-    		Robot.drive.drive(-0.4, 0, 0);
-    		lastState=false;
-    	}
-    	else if(distance<THROW_DISTANCE) Robot.drive.drive(0, -0.2, 0);
-    	else Robot.drive.stop();
-    }
-    
-    private double getLinePatternX(){
-    	double[] x = server.getNumberArray("LINE_PATTERN");
-    	if(x.length>0){
-    		return x[1];
-    	}else{
-    		return 150;
-    	}
-    }
-    
-    private double getDistance(){
-    	double d = server.getNumber("Distance", 8);
-    	return d;
-    }
-
-    // Make this return true when this Command no longer needs to run execute()
-    protected boolean isFinished() {
-        return distance>THROW_DISTANCE;
-    }
-
-    // Called once after isFinished returns true
-    protected void end() {
-    	Robot.drive.stop();
-    }
-
-    // Called when another command which requires one or more of the same
-    // subsystems is scheduled to run
-    protected void interrupted() {
-    	end();
-    }
+	// Called when another command which requires one or more of the same
+	// subsystems is scheduled to run
+	protected void interrupted() {
+		end();
+	}
 }

@@ -4,7 +4,7 @@ import org.usfirst.frc.team1523.robot.Robot;
 import edu.wpi.first.wpilibj.command.Command;
 
 /**
- *
+ *DO NOT RUN UNLESS BRAKE IS RELEASED
  */
 public class TestClimb extends Command {
 
@@ -19,6 +19,7 @@ public class TestClimb extends Command {
 
     // Called repeatedly when this Command is scheduled to run
     protected void execute() {
+    	//Run backwards at half speed
     	Robot.rope.run(0.5);
     }
 

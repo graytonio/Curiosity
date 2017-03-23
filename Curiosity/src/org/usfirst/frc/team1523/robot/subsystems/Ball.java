@@ -44,10 +44,10 @@ public class Ball extends Subsystem {
      * @param setState True to push piston, False to pull
      */
     public void set(boolean setState){
-    	if(setState){
+    	if(setState){	//True = Forward
     		piston.set(DoubleSolenoid.Value.kForward);
     		state=false;
-    	}else{
+    	}else{			//False = Backward
     		piston.set(DoubleSolenoid.Value.kReverse);
     		state=true;
     	}

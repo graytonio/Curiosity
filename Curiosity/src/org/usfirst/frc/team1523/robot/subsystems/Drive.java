@@ -25,9 +25,10 @@ public class Drive extends Subsystem {
 	 * Class that handles the drive mechanisms
 	 */
 	public Drive(){
+		//For mecanum drive one of the sides has to be inverted for it to drive straight it will not always be thr left side
 		frontR = new CANTalon(RobotMap.DRIVE_TALON_FRONT_R);
 		frontL = new CANTalon(RobotMap.DRIVE_TALON_FRONT_L);
-		frontL.setInverted(true);
+		frontL.setInverted(true);	
 		
 		rearR = new CANTalon(RobotMap.DRIVE_TALON_REAR_R);
 		rearL = new CANTalon(RobotMap.DRIVE_TALON_REAR_L);
@@ -90,15 +91,22 @@ public class Drive extends Subsystem {
 		drive.stopMotor();
 	}
 	
+	/**
+	 * Creates an adaptive deadband that does not jump in value
+	 * @param input	raw joystick input
+	 * @param value	adjusted 0
+	 * @return new adjusted value
+	 */
 	private double deadband(double input, double value){
-		if(Math.abs(input) < value) return 0;
+		if(Math.abs(input) < value) return 0; //Deadband
 		
-	    else if(input>0) return (input-value)/(1-value);
+	    else if(input>0) return (input-value)/(1-value); //Positive return
 		
-	    else return -(Math.abs(input)-value)/(1-value);
+	    else return -(Math.abs(input)-value)/(1-value); //Negative return
 	}
 	
 	private double squared(double input){
+		//Make sure to keep the sign so the direction you input is not changed by squaring it
 		if(input>0){
 			return input*input;
 		}else{
@@ -107,6 +115,7 @@ public class Drive extends Subsystem {
 	}
 	
 	private double joystickCorrection(double input, double deadband){
+		//Run the deadband first then the squareing so the robot can still go full speed
 		return squared(deadband(input, deadband));
 	}
 

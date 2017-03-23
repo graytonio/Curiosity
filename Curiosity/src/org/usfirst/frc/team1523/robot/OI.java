@@ -32,9 +32,11 @@ public class OI {
 	JoystickButton resetEncoder;
 	
 	public OI(){
+		//Create Joystick Objects
 		stick0 = new Joystick(0);
 		stick1 = new Joystick(1);
 		
+		//Assign each button object to its stick and button number in RobotMap
 		ballOutputOut = new JoystickButton(stick1, RobotMap.BALL_OUTPUT_OUT_BUTTON);
 		ballOutputIn = new JoystickButton(stick1, RobotMap.BALL_OUTPUT_IN_BUTTON);
 		holdBallPickup = new JoystickButton(stick0, RobotMap.BALL_PICKUP_HOLD_BUTTON);
@@ -44,6 +46,7 @@ public class OI {
 		gearOut = new JoystickButton(stick1, RobotMap.GEAR_OUT_BUTTON);
 		gearIn = new JoystickButton(stick1, RobotMap.GEAR_IN_BUTTON);
 		
+		//Give Each Button A Command
 		holdRope.whileHeld(new ClimbRope());
 		holdBallPickup.whileHeld(new PickupBall());
 		ballOutputOut.whenPressed(new SetBallRelease(false));

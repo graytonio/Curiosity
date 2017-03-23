@@ -27,16 +27,24 @@ public class AutoDrive extends Command {
 
     // Called repeatedly when this Command is scheduled to run
     protected void execute() {
+    	//Drive Backwards
     	if(distance<0){
+    		//If the encoders have not reached the right distance
     		if(Robot.drive.getLeftDistance()<-this.distance){
+    			//Drive backwards
         		Robot.drive.drive(0, speed, 0);
         	}else{
+        		//Stop
         		this.finished=true;
         	}
+    	//Drive Forwards
     	}else{
+    		//If the encoders have not reached the right distance
     		if(Robot.drive.getRightDistance()<this.distance){
+    			//Drive forwards
         		Robot.drive.drive(0, -speed, 0);
         	}else{
+        		//Stop
         		this.finished=true;
         	}
     	}
