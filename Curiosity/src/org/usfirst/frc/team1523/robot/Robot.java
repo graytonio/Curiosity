@@ -36,6 +36,8 @@ public class Robot extends IterativeRobot {
 
 	public static VisionThread vision;
 	public static double x;
+	public static double y1;
+	public static double y2;
 	public static double distance;
 
 	Command autonomousCommand;
@@ -76,10 +78,19 @@ public class Robot extends IterativeRobot {
 				Rect r1 = Imgproc.boundingRect(grip.convexHullsOutput().get(0));
 				Rect r2 = Imgproc.boundingRect(grip.convexHullsOutput().get(1));
 				x = ((r1.x + r1.width/2) + (r2.x + r2.width/2)) / 2;
-				distance = r1.x;
+				if(r1.x<r2.x){
+					y1 = r1.y;
+					y2 = r2.y;
+				}else{
+					y1 = r2.y;
+					y2 = r1.y;
+				}
+				distance = r1.x - r2.x;
 				System.out.println("STEP: X: " + x + " Distance: " + distance);
 			}else{
 				System.out.println("NO TARGET FOUND" + grip.convexHullsOutput().size());
+				x = -1;
+				distance = -1;
 			}
 		});
 		
@@ -132,7 +143,5 @@ public class Robot extends IterativeRobot {
 		SmartDashboard.putNumber("Right Drive", drive.getRightDistance());
 		SmartDashboard.putNumber("Left Drive", drive.getLeftDistance());
 		SmartDashboard.putNumber("Gyro Reading", gyro.getAngle());
-		SmartDashboard.putNumber("X Reading", x);
-		SmartDashboard.putNumber("Distance Value", distance);
 	}
 }

@@ -57,11 +57,11 @@ public class OI {
 		gearIn.whenPressed(new SetUpperGear(false));
 		
 		//Debug Buttons
-		downRope = new JoystickButton(stick0, 4);
-		resetEncoder = new JoystickButton(stick0, 5);
+//		downRope = new JoystickButton(stick0, 4);
+//		resetEncoder = new JoystickButton(stick0, 5);
 		
-		downRope.whileHeld(new TestClimb());
-		resetEncoder.whenPressed(new ResetSensors());
+//		downRope.whileHeld(new TestClimb());
+//		resetEncoder.whenPressed(new ResetSensors());
 	}
 	
 	public Joystick getStick0(){

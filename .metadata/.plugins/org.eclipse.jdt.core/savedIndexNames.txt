@@ -8,10 +8,10 @@ INDEX VERSION 1.130+/Users/Grayton/Documents/Java Workspaces/Curiosity/.metadata
 3703194086.index
 3484117950.index
 1327993680.index
-1888666045.index
 2762063732.index
-3720681883.index
 2255771374.index
+1888666045.index
+3720681883.index
 403150496.index
 637931615.index
 1271342938.index

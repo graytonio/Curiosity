@@ -12,42 +12,19 @@ public class AutoGear extends CommandGroup {
 	 * 3 = Left hopper
 	 * 4 = Right hopper
 	 */
-	
+
 	public AutoGear(int pos) {
-		driveToGear(pos);
-		placeGear();
-	}
-	
-	public void driveToGear(int pos){
-		//Left
 		if(pos==0){
-			addSequential(new AutoDrive(0.5, 80));
+			addSequential(new AutoDrive(0.3, 80));
 			addSequential(new AutoTurn(-55));
-		//Center
+			//Center
 		}else if(pos==1){
-			addSequential(new AutoDrive(0.5, 40));
-		//Right
+			addSequential(new AutoDrive(0.3, 40));
+			//Right
 		}else if(pos==2){
-			addSequential(new AutoDrive(0.5, 80));
+			addSequential(new AutoDrive(0.3, 80));
 			addSequential(new AutoTurn(55));
 		}
-	}
-	
-	public void crossBaseLine(int pos){
-		//Left
-		if(pos==0){
-			addSequential(new AutoDrive(0.3, -30));
-			addSequential(new AutoTurn(30));
-			addSequential(new AutoDrive(0.3, 100));
-		//Right	
-		}else if(pos==2){
-			addSequential(new AutoDrive(0.3, -30));
-			addSequential(new AutoTurn(-30));
-			addSequential(new AutoDrive(0.3, 100));
-		}
-	}
-	
-	public void placeGear(){
 		//Find Target
 		addSequential(new Vision());
 		//Put Gear on Peg
