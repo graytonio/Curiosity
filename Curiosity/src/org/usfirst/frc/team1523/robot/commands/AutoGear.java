@@ -15,14 +15,14 @@ public class AutoGear extends CommandGroup {
 
 	public AutoGear(int pos) {
 		if(pos==0){
-			addSequential(new AutoDrive(0.3, 80));
+			addSequential(new AutoDrive(0.3, 85));
 			addSequential(new AutoTurn(-55));
 			//Center
 		}else if(pos==1){
 			addSequential(new AutoDrive(0.3, 40));
 			//Right
 		}else if(pos==2){
-			addSequential(new AutoDrive(0.3, 80));
+			addSequential(new AutoDrive(0.3, 85));
 			addSequential(new AutoTurn(55));
 		}
 		//Find Target

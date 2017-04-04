@@ -5,6 +5,7 @@ import org.opencv.core.Rect;
 import org.opencv.imgproc.Imgproc;
 import org.usfirst.frc.team1523.robot.commands.AutoGear;
 import org.usfirst.frc.team1523.robot.commands.DriveAcrossBaseLine;
+import org.usfirst.frc.team1523.robot.commands.Vision;
 import org.usfirst.frc.team1523.robot.subsystems.Ball;
 import org.usfirst.frc.team1523.robot.subsystems.Drive;
 import org.usfirst.frc.team1523.robot.subsystems.Gear;
@@ -39,6 +40,7 @@ public class Robot extends IterativeRobot {
 	public static double y1;
 	public static double y2;
 	public static double distance;
+	public static Object imgLock = new Object();
 
 	Command autonomousCommand;
 	SendableChooser<Command> chooser = new SendableChooser<>();
@@ -69,31 +71,29 @@ public class Robot extends IterativeRobot {
 		chooser.addObject("Left", new AutoGear(0));
 		chooser.addObject("Right", new AutoGear(2));
 		chooser.addObject("Drive Across Baseline", new DriveAcrossBaseLine());
+		//		chooser.addObject("Vison Test", new Vision());
 		chooser.addDefault("Nothing", null);
 		SmartDashboard.putData("Auto Choice", chooser);
-		
+
 		//Start Vision Thread
 		vision = new VisionThread(CameraServer.getInstance().startAutomaticCapture(0), new GripPipeline(), grip ->{
 			if(grip.convexHullsOutput().size()==2){
 				Rect r1 = Imgproc.boundingRect(grip.convexHullsOutput().get(0));
 				Rect r2 = Imgproc.boundingRect(grip.convexHullsOutput().get(1));
-				x = ((r1.x + r1.width/2) + (r2.x + r2.width/2)) / 2;
-				if(r1.x<r2.x){
-					y1 = r1.y;
-					y2 = r2.y;
-				}else{
-					y1 = r2.y;
-					y2 = r1.y;
+				synchronized(imgLock){
+					x = ((r1.x + r1.width/2) + (r2.x + r2.width/2)) / 2;
+					distance = r1.x - r2.x;
+					System.out.println("STEP: X: " + x + " Distance: " + distance + "\nY1: " + y1 + " Y2: " + y2);
 				}
-				distance = r1.x - r2.x;
-				System.out.println("STEP: X: " + x + " Distance: " + distance);
 			}else{
 				System.out.println("NO TARGET FOUND" + grip.convexHullsOutput().size());
-				x = -1;
-				distance = -1;
+				synchronized(imgLock){
+					x = -1;
+					distance = -1;
+				}
 			}
 		});
-		
+
 		vision.start();
 	}
 
@@ -106,7 +106,7 @@ public class Robot extends IterativeRobot {
 	@Override
 	public void disabledPeriodic() {
 		Scheduler.getInstance().run();
-//		System.out.println("X: " + x);
+		//		System.out.println("X: " + x);
 		log();
 	}
 
