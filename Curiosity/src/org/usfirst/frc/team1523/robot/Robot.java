@@ -101,7 +101,7 @@ public class Robot extends IterativeRobot {
 			}
 		});
 
-//		vision.start();
+		vision.start();
 	}
 
 	@Override
