@@ -10,7 +10,7 @@ import edu.wpi.first.wpilibj.command.Command;
 public class Vision extends Command {
 
 	private final int DEAD_ZONE=3;
-	private double THROW_DISTANCE=60;
+	private double THROW_DISTANCE=58;
 	private double distance;
 	private double x;
 	private double y1;
@@ -23,8 +23,6 @@ public class Vision extends Command {
 
 	protected void execute() {
 		synchronized(Robot.imgLock){
-			y1 = Robot.y1;
-			y2 = Robot.y2;
 			distance = Robot.distance;
 			x = Robot.x;
 		}

@@ -14,22 +14,26 @@ public class AutoGear extends CommandGroup {
 	 */
 
 	public AutoGear(int pos) {
-		if(pos==0){
-			addSequential(new AutoDrive(0.3, 85));
-			addSequential(new AutoTurn(-55));
+		if(pos==0 || pos==3){
+			addSequential(new AutoDrive(0.2, 55));
+			addSequential(new AutoTurn(-45));
+			addSequential(new AutoDrive(0.2, 2));
 			//Center
 		}else if(pos==1){
-			addSequential(new AutoDrive(0.3, 40));
+			addSequential(new AutoDrive(0.2, 45));
 			//Right
-		}else if(pos==2){
-			addSequential(new AutoDrive(0.3, 85));
-			addSequential(new AutoTurn(55));
+		}else if(pos==2 || pos==4){
+			addSequential(new AutoDrive(0.2, 55));
+			addSequential(new AutoTurn(45));
+			addSequential(new AutoDrive(0.2, 2));
 		}
 		//Find Target
-		addSequential(new Vision());
+		//		addSequential(new Vision());
 		//Put Gear on Peg
-		addSequential(new SetUpperGear(false));
-		addSequential(new WaitCommand(0.5));
-		addSequential(new SetUpperGear(true));
+		if(pos==0 || pos==1 || pos==2){
+			addSequential(new SetUpperGear(false));
+			addSequential(new WaitCommand(0.5));
+			addSequential(new SetUpperGear(true));
+		}
 	}
 }

@@ -77,13 +77,6 @@ public class Drive extends Subsystem {
 		rearL.setEncPosition(0);
 	}
 	
-	public void resetPID(){
-		frontR.setPID(RobotMap.TALON_P, RobotMap.TALON_I, RobotMap.TALON_D);
-		frontL.setPID(RobotMap.TALON_P, RobotMap.TALON_I, RobotMap.TALON_D);
-		rearR.setPID(RobotMap.TALON_P, RobotMap.TALON_I, RobotMap.TALON_D);
-		rearL.setPID(RobotMap.TALON_P, RobotMap.TALON_I, RobotMap.TALON_D);
-	}
-	
 	/**
 	 * Stop motor
 	 */

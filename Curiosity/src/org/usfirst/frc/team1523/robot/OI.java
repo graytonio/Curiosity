@@ -55,19 +55,18 @@ public class OI {
 		gearDown.whenPressed(new SetLowerGear(false));
 		gearOut.whenPressed(new SetUpperGear(true));
 		gearIn.whenPressed(new SetUpperGear(false));
-		
-		//Debug Buttons
-//		downRope = new JoystickButton(stick0, 4);
-//		resetEncoder = new JoystickButton(stick0, 5);
-		
-//		downRope.whileHeld(new TestClimb());
-//		resetEncoder.whenPressed(new ResetSensors());
 	}
 	
+	/**
+	 * @return Joystick in port 0
+	 */
 	public Joystick getStick0(){
 		return stick0;
 	}
 	
+	/**
+	 * @return Joystick in port 1
+	 */
 	public Joystick getStick1(){
 		return stick1;
 	}

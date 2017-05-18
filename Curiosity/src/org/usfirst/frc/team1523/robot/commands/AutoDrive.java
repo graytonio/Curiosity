@@ -1,5 +1,4 @@
 package org.usfirst.frc.team1523.robot.commands;
-
 import org.usfirst.frc.team1523.robot.Robot;
 
 import edu.wpi.first.wpilibj.command.Command;
@@ -18,6 +17,7 @@ public class AutoDrive extends Command {
     	requires(Robot.drive);
         this.distance=distance;
         this.speed=speed;
+        this.finished=false;
     }
 
     // Called just before this Command runs the first time
@@ -28,7 +28,7 @@ public class AutoDrive extends Command {
     // Called repeatedly when this Command is scheduled to run
     protected void execute() {
     	//Drive Backwards
-    	if(distance<0){
+    	if(this.distance<0){
     		//If the encoders have not reached the right distance
     		if(Robot.drive.getLeftDistance()<-this.distance){
     			//Drive backwards
@@ -59,6 +59,7 @@ public class AutoDrive extends Command {
     // Called once after isFinished returns true
     protected void end() {
     	Robot.drive.stop();
+    	Robot.drive.reset();
     }
 
     // Called when another command which requires one or more of the same
